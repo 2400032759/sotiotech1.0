@@ -1,0 +1,33 @@
+/* Global typography overrides */
+
+html,
+body,
+p,
+span,
+li,
+a,
+button,
+input,
+textarea,
+select,
+label {
+	font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Russo One", sans-serif;
+	letter-spacing: 0.03em;
+}
+
+button[class*="rounded-full"][class*="font-bold"],
+a[role="button"][class*="rounded-full"][class*="font-bold"],
+.cta-button,
+[data-cta="true"] {
+	font-family: "Russo One", sans-serif;
+	letter-spacing: 0.03em;
+}
